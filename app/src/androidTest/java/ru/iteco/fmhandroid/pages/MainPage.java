@@ -6,7 +6,6 @@ import static androidx.test.espresso.assertion.ViewAssertions.matches;
 import static androidx.test.espresso.matcher.ViewMatchers.isDisplayed;
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
-import static androidx.test.espresso.matcher.ViewMatchers.withText;
 
 import ru.iteco.fmhandroid.R;
 
@@ -27,10 +26,6 @@ public class MainPage {
 
     public void clickOurMission() {
         onView(withId(R.id.our_mission_image_button)).perform(click());
-    }
-
-    public void clickNews() {
-        onView(withId(R.id.news_list_recycler_view)).perform(click());
     }
 
     public void clickEditNewsButton() {
